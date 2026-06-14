@@ -1,0 +1,14 @@
+node_modules/
+.next/
+out/
+next-env.d.ts
+tsconfig.tsbuildinfo
+
+# python (harness 스크립트 + pytest)
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# phase execution outputs
+phases/**/phase*-output.json
+phases/**/step*-output.json
